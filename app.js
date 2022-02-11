@@ -2,6 +2,8 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+
+//Lisätään lopuksi_
 const db = require('./database');
 const bcrypt = require('bcryptjs');
 const basicAuth = require('express-basic-auth');
